@@ -29,7 +29,7 @@ const [state,setState]=useState('')
                 {opciones.map(opcion=>(
 
 
-                     <option key={opcion.id} value={opcion.di}>{opcion.nombre}</option>
+                     <option key={opcion.id} value={opcion.id}>{opcion.nombre}</option>
 
                 ))}
             </Select>
